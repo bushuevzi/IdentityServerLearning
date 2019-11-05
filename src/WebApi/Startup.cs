@@ -32,7 +32,7 @@ namespace WebApi
                 {
                     options.Authority = "http://localhost:5000";
                     options.RequireHttpsMetadata = false;
-                    options.Audience = "apl1";
+                    options.Audience = "api1";
                 });
         }
 
