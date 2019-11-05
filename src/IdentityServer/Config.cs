@@ -51,7 +51,8 @@ namespace IdentityServer
                     ClientId = "mvc",
                     ClientSecrets = {new Secret("secret2".Sha256())},
 
-                    AllowedGrantTypes = GrantTypes.Code,
+                    //AllowedGrantTypes = GrantTypes.Code,
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     RequireConsent = false,
                     RequirePkce = true,
 
